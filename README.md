@@ -1,9 +1,9 @@
-# Awesome-Scientific-Knowledge-Graph
+#Awesome-Scientific-Knowledge-Graph
 
 ### Knowledge Graphs in Drug Discovery and Biomedical Research ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 
 | Year | Title | KG Name | KG Type | Domain | Construction Method | Venue | Paper | Code |
-| ---- | ----- | ------- | ------- | ------ | ------------------- | ----- | ----- | ---- |
+| ---- | ---------------- | ------- | ------- | ------ | ------------------- | ----- | ----- | ---- |
 | 2025 | TarIKGC: A Target Identification Tool Using Semantics-Enhanced Knowledge Graph Completion with Application to CDK2 Inhibitor Discovery | biological activity KG | public KG | DTI prediction | Semi-automated | Journal of Medicinal Chemistry | [Link](https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c02543) | [Link](https://github.com/shenxj9/TarIKGC) ![](https://img.shields.io/github/stars/shenxj9/TarIKGC.svg?style=social) |
 | 2025 | A comprehensive large-scale biomedical knowledge graph for AI-powered data-driven biomedical research | iKraph | Multi-source KG | Drug repurposing and Hypothesis Generation | Semi-automated | Nature Machine Intelligence | [Link](https://www.nature.com/articles/s42256-025-01014-w) | [Link](https://github.com/myinsilicom/iKraph) ![](https://img.shields.io/github/stars/myinsilicom/iKraph.svg?style=social) |
 | 2025 | VITAGRAPH: Building a Knowledge Graph for Biologically Relevant Learning Tasks | VITAGRAPH | public KG | Drug repurposing | Semi-automated | arXiv | [Link](https://arxiv.org/pdf/2505.11185) | [Link](https://github.com/gidecarlo/vitagraph) ![](https://img.shields.io/github/stars/gidecarlo/vitagraph.svg?style=social) |
