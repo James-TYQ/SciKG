@@ -1,5 +1,7 @@
 # Awesome-Scientific-Knowledge-Graph
 
+## Application of SciKGs
+
 ### Drug Development and Optimization ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 
 | Year | Title | KG Name | KG Type | Domain | Construction Method | Venue | Paper | Code |
