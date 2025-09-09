@@ -1,6 +1,6 @@
-# SciKG
+#Awesome-Scientific-Knowledge-Graph
 
-### Knowledge Graphs in Drug Discovery and Biomedical Research ([To Top👆🏻](#awesome-kg-drug-discovery))
+### Knowledge Graphs in Drug Discovery and Biomedical Research ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 
 | Year | Title | KG Name | KG Type | Domain | Construction Method | Venue | Paper | Code |
 | ---- | ----- | ------- | ------- | ------ | ------------------- | ----- | ----- | ---- |
