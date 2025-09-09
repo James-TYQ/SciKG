@@ -145,6 +145,6 @@
 | 2018 | Relation extraction with weakly supervised learning based on process-structure-property-performance reciprocity | PSPP KG (Process-Structure-Property-Performance) | literature-based KG | New material design | Semi-automated | Science and Technology of Advanced Materials | [Link](https://www.tandfonline.com/doi/full/10.1080/14686996.2018.1500852#d1e373) | [Link](https://bitbucket.org/0024takeshi/pspp_relation) |
 
 ## 📅 Star History  
- <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
+ <a href="#-table-of-contents" style="float:right;">[To Top👆🏻]</a>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=hicai-zju/scikg&type=Date)](https://www.star-history.com/#hicai-zju/scikg&Date)
