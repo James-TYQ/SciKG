@@ -19,6 +19,7 @@ A comprehensive overview of Scientific Knowledge Graphs (SciKGs), organized in r
     - [⚗️ Chemical Reaction and Synthesis](#chemical-reaction-and-synthesis-to-top)
     - [🔬 Materials Design and Discovery](#materials-design-and-discovery-to-top)
   - [🤖 SciKG-LLM Integration](#scikg-llm-integration-to-top)
+  - [🛠️ Software Tools for Knowledge Graph](#software-tools-for-knowledge-graph-to-top)
   - [⭐ Star History](#-star-history)
 
 ## 🔗 Evolution of KGs and SciKG Applications ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
@@ -241,6 +242,31 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 | SciCUEval | 2025 | Comprehensive Science | Information extraction & Knowledge reasoning | Knowledge grounding & Evidence-based reasoning & Context-enhanced QA | Benchmarking LLMs for scientific context in KG |
 
 **Note:** *Abbr.* IE: information extraction, including named entity recognition, relation extraction, and attribute extraction.
+
+## Software Tools for Knowledge Graph ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
+
+| Category | Software Name | URL | Description | Supported Tasks | License |
+| -------- | ------------- | --- | ----------- | --------------- | ------- |
+| **Automated KG Construction** | DeepKE | [Link](https://github.com/zjunlp/DeepKE) | A knowledge extraction toolkit for knowledge graph construction supporting cnSchema, low-resource, document-level and multimodal scenarios for entity, relation and attribute extraction | Named Entity Recognition, Relation Extraction, Attribute Extraction | MIT License |
+| | OneKE | [Link](https://github.com/OpenSPG/OneKE) | A flexible dockerized system for schema-guided knowledge extraction, capable of extracting information from the web and raw PDF books across multiple domains like science and news | Named Entity Recognition, Web News Extraction, Book Knowledge Extraction | MIT License |
+| | AutoKG | [Link](https://github.com/zjunlp/AutoKG) | An LLM-powered multi-agent framework for automated KG construction and reasoning, integrating external knowledge sources for large-scale extraction | Entity/Relation Extraction, KG Construction, KG Reasoning | MIT License |
+| **Graph Databases and Storage** | Neo4j | [Link](https://github.com/neo4j/neo4j) | A widely used native graph database with ACID transactions and Cypher query language, suitable for highly connected data analysis | Graph Storage, Graph Querying, Graph Algorithms | GPLv3 |
+| | JanusGraph | [Link](https://github.com/JanusGraph/janusgraph) | A highly scalable graph database optimized for storing and querying large graphs with billions of vertices and edges distributed across a multi-machine cluster | Graph Storage, Gremlin Query | CC-BY-4.0 |
+| | ArangoDB | [Link](https://github.com/arangodb/arangodb) | A scalable graph database system to drive value from connected data, faster. Native graphs, an integrated search engine, and JSON support, via a single query language | Multi-Model Storage, Graph Traversal, Path Querying | BSL 1.1 |
+| | Virtuoso | [Link](https://github.com/openlink/virtuoso-opensource) | A hybrid relational-RDF database supporting both SPARQL and SQL, widely used for Linked Data publishing | RDF Storage, SPARQL Query, Ontology Reasoning | GPL v2 |
+| | TigerGraph | [Link](https://www.tigergraph.com) | A commercial distributed parallel graph database optimized for real-time graph analytics, offering GSQL for querying at trillion-edge scale | Graph Storage, Parallel Graph Computation, Real-time Querying | Proprietary |
+| **Representation Learning & Reasoning** | OpenKE | [Link](https://github.com/thunlp/OpenKE) | A sub-project of OpenSKL, providing an Open-source Knowledge Embedding toolkit for knowledge representation learning (KRL) | KG Embedding, Link Prediction, Triple Classification | MIT License |
+| | DGL-KE | [Link](https://github.com/awslabs/dgl-ke) | A high performance, easy-to-use, and scalable package for learning large-scale knowledge graph embeddings | KG Embedding, Large-scale Link Prediction | Apache 2.0 |
+| | PyKEEN | [Link](https://github.com/pykeen/pykeen) | A Python library for KG embeddings with modular design, automated hyperparameter tuning, and reproducibility guarantees | KG Embedding, Model Training and Evaluation, Hyperparameter Optimization | MIT License |
+| | AmpliGraph | [Link](https://github.com/Accenture/AmpliGraph) | A suite of neural machine learning models for relational Learning, a branch of machine learning that deals with supervised learning on knowledge graphs | Generate KG embeddings, Link Prediction, Anomaly Detection | Apache 2.0 |
+| | LibKGE | [Link](https://github.com/uma-pi1/kge) | A PyTorch-based library for efficient training, evaluation, and hyperparameter optimization of knowledge graph embeddings (KGE) | Link Prediction, Training, Evaluation of KGE Models | MIT License |
+| | Pykg2vec | [Link](https://github.com/Sujit-O/pykg2vec) | A library for learning the representation of entities and relations in Knowledge Graph | KGE Model Implementations, Hyperparameters Discovery, Learned Embedding Inspecting | MIT License |
+| **Auxiliary Tools** | Doccano | [Link](https://github.com/doccano/doccano) | An open-source text annotation tool with a web interface for humans | Annotation for Text Classification, Sequence Labeling, Sequence to Sequence tasks | MIT License |
+| | Label Studio | [Link](https://github.com/HumanSignal/label-studio) | An open source data labeling tool supporting multimodal data, such as text, images, audio, video, time series | Multi-modal Data Annotation, Quality Assurance | Apache 2.0 |
+| | Gephi | [Link](https://github.com/gephi/gephi) | An award-winning open-source platform for visualizing and manipulating large graphs | Graph Visualization, Network Analysis, Community Detection | CDDL 1.0 |
+| | Cytoscape | [Link](https://github.com/cytoscape/cytoscape) | A network visualization platform originally designed for bioinformatics, now supporting general-purpose network analysis with rich plugins | Graph Visualization, Attribute Integration, Topology Analysis | LGPL |
+| | GraphGPT | [Link](https://github.com/varunshenoy/GraphGPT) | An experimental tool using GPT models to extract entities and relations from text and generate interactive KG visualizations | Triple Extraction, KG Construction, Visualization | MIT License |
+| | LlamaIndex | [Link](https://github.com/run-llama/llama_index) | A component for building KG indices from unstructured text, integrating subject–predicate–object triples into LLM-based retrieval pipelines | Triple Extraction, KG Indexing, KG-based QA | MIT License |
 
 ## 📅 Star History  
  <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
