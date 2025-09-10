@@ -8,9 +8,8 @@ A comprehensive overview of Scientific Knowledge Graphs (SciKGs), organized in r
 
 ## 📑 Table of Contents
 - [Awesome-Scientific-Knowledge-Graph](#awesome-scientific-knowledge-graph)
-  - [📖 Citation](#-citation)
-  - [🔗 Co-evolution of KGs and SciKG Applications](#-co-evolution-of-kgs-and-scikg-applications)
-  - [🧬 Research Scope Across Scientific Domains](#-research-scope-across-scientific-domains)
+  - [🔗 Co-evolution of KGs and SciKG Applications](#evolution-of-kgs-and-scikg-applications)
+  - [🧬 Research Scope Across Scientific Domains](#research-scope-across-scientific-domains)
   - [🏗️ Construction and Maintenance of SciKGs](#️-construction-and-maintenance-of-scikgs)
   - [⚖️ Challenges and Opportunities in SciKGs](#️-challenges-and-opportunities-in-scikgs)
   - [🗄️ Databases for Constructing Scientific KG](#️-databases-for-constructing-scientific-kg)
@@ -22,7 +21,7 @@ A comprehensive overview of Scientific Knowledge Graphs (SciKGs), organized in r
   - [🤖 SciKG-LLM Integration](#-scikg-llm-integration)
   - [⭐ Star History](#-star-history)
 
-## 🔗 Co-evolution of KGs and SciKG Applications ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
+## 🔗 Evolution of KGs and SciKG Applications ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 ![evolution](fig/evolution.png)
 The co-evolution of knowledge graph technologies and their scientific applications. The technological evolution of KGs (top) has continually enabled new paradigms in SciKG applications (bottom). This progression has moved from static cataloguing and manual integration to machine learning-driven inference, culminating in the current era of bidirectional synergy between LLMs and KGs. This synergy, leveraging tools such as RAG and AI agents, transforms SciKGs from static repositories into dynamic engines for generative scientific discovery. Abbr., SQL: Structured Query Language; RDF: Resource Description Framework; OWL: Web Ontology Language; SPARQL: SPARQL Protocol and RDF Query Language; GNN: graph neural network; KGE: knowledge graph embedding; RAG: retrieval-augmented generation.
 
