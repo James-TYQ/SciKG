@@ -198,6 +198,35 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 | 2020 | NanoMine: A Knowledge Graph for Nanocomposite Materials Science | NanoMine KG | domain-specific KG | New material design | Semi-automated | ISWC | [Link](https://link.springer.com/chapter/10.1007/978-3-030-62466-8_10) | |
 | 2018 | Relation extraction with weakly supervised learning based on process-structure-property-performance reciprocity | PSPP KG (Process-Structure-Property-Performance) | literature-based KG | New material design | Semi-automated | Science and Technology of Advanced Materials | [Link](https://www.tandfonline.com/doi/full/10.1080/14686996.2018.1500852#d1e373) | [Link](https://bitbucket.org/0024takeshi/pspp_relation) |
 
+## SciKG-LLM Integration ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
+
+| Name | Year | Domains | Roles of LLMs | Roles of SciKG | Tasks and Goals |
+| ---- | ---- | ------- | ------------- | -------------- | --------------- |
+| BioLORD | 2024 | Biomedicine | Knowledge completion | Concept-aligned distillation | Enhance biomedical semantic similarity |
+| MedSyn | 2024 | Biomedicine | Information extraction | Multi-hop reasoning & Structured summarization | Generate synthetic clinical notes in Russian |
+| HeCiX-KG | 2024 | Biomedicine | Knowledge completion | Context-enhanced QA | Enhance clinical trial research |
+| KnowNET | 2024 | Biomedicine | Information extraction & Knowledge reasoning | Knowledge grounding & Evidence-based reasoning | Guide health information seeking |
+| DALK | 2024 | Biomedicine | Information extraction | Knowledge retrieval & Context-enhanced QA | Enhancing the diagnosis of Alzheimer's Disease |
+| CancerKG.ORG | 2024 | Biomedicine | End-to-end KG construction & Auto-maintenance | Fact verification | Optimal cancer treatment and care |
+| FactFinder | 2024 | Biomedicine | Knowledge reasoning | Fact verification & Context-enhanced QA | Life-science question answering |
+| Soman et al. | 2024 | Biomedicine | Knowledge completion | Context-enhanced QA | Medical QA and drug repurposing |
+| Cat-KG | 2025 | Chemistry | Information extraction & Auto-maintenance | Evidence-based reasoning & Multi-Hop reasoning | Relay catalysis pathway recommendation |
+| Ma et al. | 2025 | Chemistry | Information extraction | Context-enhanced QA | Automated Retrosynthesis Planning of Macromolecules |
+| KG-FM | 2025 | Material Science | End-to-end KG construction | Context-enhanced QA | Enhance QA systems development |
+| Yang et al. | 2025 | Biomedicine | Information extraction & Knowledge reasoning | Knowledge grounding | Improve sepsis understanding |
+| TCM-KLLaMA | 2025 | Biomedicine | Information extraction | Knowledge grounding | Safe TCM prescription generation |
+| OpenTCM | 2025 | Biomedicine | Information extraction | GraphRAG | Traditional Chinese Medicine diagnosis |
+| GRABLI | 2025 | Biomedicine | Knowledge completion | Multimodal Knowledge alignment | Improve biomedical language understanding |
+| KG4Diagnosis | 2025 | Biomedicine | End-to-end KG construction | Context-enhanced QA | Medical diagnosis |
+| KGT | 2025 | Biomedicine | Knowledge reasoning & Knowledge refinement | Fact verification & Evidence-based reasoning & Multi-hop reasoning | Framework for pan-cancer question answering |
+| Shi et al. | 2025 | Biomedicine | Knowledge completion | Knowledge grounding | Enhance cognitive capabilities in medical device design |
+| AMG-RAG | 2025 | Biomedicine | Information extraction & Knowledge reasoning | Knowledge grounding & Evidence-based reasoning | Enhance medical question answering |
+| HealthGenie | 2025 | Biomedicine | Information extraction & Knowledge reasoning | Knowledge grounding & Evidence-based reasoning | Empower users with healthy dietary guidance |
+| SciToolAgent | 2025 | Comprehensive Science | Information extraction | Knowledge grounding | Scientific agent for multi-tool integration |
+| SciCUEval | 2025 | Comprehensive Science | Information extraction & Knowledge reasoning | Knowledge grounding & Evidence-based reasoning & Context-enhanced QA | Benchmarking LLMs for scientific context in KG |
+
+**Note:** *Abbr.* IE: information extraction, including named entity recognition, relation extraction, and attribute extraction.
+
 ## 📅 Star History  
  <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
 
