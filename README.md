@@ -1,5 +1,11 @@
 # Awesome-Scientific-Knowledge-Graph
 
+A comprehensive overview of Scientific Knowledge Graphs (SciKGs), organized in reference to our survey, covering construction methods, applications, integration with LLMs, and future challenges: ***Knowledge Graphs for AI-Driven Scientific Discovery: Construction, Applications, and Challenges***
+
+> If you notice any mistakes or have suggestions, please feel free to contact us at: dingkeyan@zju.edu.cn
+>
+> For reliability, we recommend also CC’ing qiang.zhang.cs@zju.edu.cn and yuqi.22@intl.zju.edu.cn in case of potential delivery issues.
+
 ## Application of SciKGs
 
 ### Drug Development and Optimization ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
