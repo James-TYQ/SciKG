@@ -22,6 +22,38 @@ Construction and maintenance of SciKGs. (a) The foundation of SciKG construction
 ![chall_oppor](fig/chall_oppor.png)
 Challenges and Opportunities in SciKGs. This figure illustrates the major challenges (C1-C4) facing SciKGs, including data quality and completeness, interoperability and integration, dynamic and temporal knowledge, and trustworthy and explainable reasoning. Each challenge is paired with corresponding opportunities (O1-O4) for advancement, such as building standards and benchmarks, integrating multimodal foundation models, autonomous updating via agents, and developing community-driven platforms. The green sections depict workflows that enable these opportunities, highlighting a path towards more auditable, unified, dynamic, and community-governed SciKGs.
 
+## Databases for Constructing Scientific KG ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
+
+| Domain | Database | Short Description | Statistics | Update Frequency |
+| ------ | -------- | ----------------- | ---------- | ---------------- |
+| **Drug Databases** | BindingDB | Publicly accessible collection of measured drug-target binding affinities | 3.1M binding data for 1.3M compounds & 9.6K targets | Weekly |
+| | DrugBank | Richly annotated resource combining drug data with target, pathway & pharmacogenomic info | 18K approved & investigational drugs, 23K drug-target links, 3.6K drug-transporter links, 6K drug-enzyme links | Monthly |
+| | CTD | The comparative toxicogenomics database links chemicals, genes, phenotypes and diseases | 101M toxicogenomic interactions, 19K chemicals, 57K genes, 7K diseases | -- |
+| | DisGeNET | Comprehensive platform integrating genes, variants, and human diseases, combining curated data and text-mined evidence | 2.0M gene–disease associations, 4.4M variant–disease associations, and 28M disease–disease associations | -- |
+| | DrugCentral | Authoritative, open-access compendium of active pharmaceutical ingredients approved worldwide | 5K drugs, 152K pharmaceutical products | -- |
+| | PharmGKB | Provide PGx data from literature annotations to genotype-based treatment guidelines | 209 clinical guideline annotations, 1.2K drug label annotations, 483 FDA drug label annotations | -- |
+| | SIDER | Database of marketed drugs and their recorded adverse drug reactions (ADRs) | 1.4K drugs, 6K side effects, 140K drug–side effect pairs | Static |
+| **Omics Databases** | Uniprot | Comprehensive, high-quality protein sequence & functional annotation database | 573K reviewed entries, 253K unreviewed entries | 4 Weeks |
+| | Ensembl | Genome browser & annotation resource for vertebrates and selected eukaryotes | 300+ species, 40K coding genes (human), 1M variants | 3 Months |
+| | KEGG | Database integrating pathways, genes, compounds, drugs and diseases for system analysis | 75K pathways, 54M genes, 12K drugs, 11K diseases | Daily |
+| | Reactome | Curated, peer-reviewed pathway database emphasizing human biology | 2.8K human pathways covering 11.6K proteins, 16K reactions | Monthly |
+| | InterPro | Comprehensive resource integrating multiple protein signature databases | 13 member databases covering millions of protein sequences | Quarterly |
+| | RNAcentral | Comprehensive ncRNA sequence collection representing all ncRNA types across diverse organisms | 44.5M non-coding RNA sequences, covering 1.1K species from 54 databases | Twice a year |
+| | STRING | Database of known and predicted protein–protein interactions across multiple organisms | 59.3M proteins, 20B PPIs, 12.5K organisms | -- |
+| | MONDO† | Ontology harmonizing disease concepts with standardized identifiers, mappings, and classifications for clinical use | 17 disease resources integrated into 22K unified disease concepts | Monthly |
+| | UMLS† | Comprehensive biomedical ontology integrating multiple vocabularies to unify concepts, names, and relationships | 17M names, 3.4M concepts, 8.7M codes, 190 vocabularies, 29 languages | Twice a year |
+| **Chemical Database** | ChEBI† | Chemical entities of biological interest, a dictionary and ontology of small molecular entities | 62K compounds | Monthly |
+| | ChEMBL | A curated database of drug-like bioactive molecules that integrates chemical, bioactivity and genomic data to support drug discovery | 2.5M compounds, 1.7M assays, 15.5K drugs, 48.8K drug indications | -- |
+| | Reaxys | Elsevier-curated chemical reactions, substances, properties & literature | 283M chemical substances, 73M reactions, 500M physicochemical data points | -- |
+| | PubChem | NIH repository of chemical substances, bioactivities & patents | 122M compounds, 338M substances, 297M bioactivities | Daily |
+| | ZINC | Free database of commercially available compounds for virtual screening | 980M purchasable compounds | -- |
+| **Materials Databases** | OQMD | Open-access database of DFT-calculated properties for inorganic and hybrid materials | 1.2M materials | -- |
+| | Materials Project | High-throughput DFT database of materials properties & crystal structures | 144K inorganic compounds, 76K bandstructures, 64K molecules, 530K nanoporous materials, and diverse tensors and electrodes | -- |
+
+**Note:** †indicates an ontology. 
+
+**Column key:** Domain: Scientific domain; Database: Resource name; Short description: Primary function and content; Statistics: Data volume metrics; Update Frequency: Update cadence (--: Update frequency is irregular or not explicitly stated).
+
 ## Application of SciKGs
 
 ### Drug Development and Optimization ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
