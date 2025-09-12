@@ -2,7 +2,7 @@
 
 A comprehensive overview of Scientific Knowledge Graphs (SciKGs), organized in reference to our survey, covering construction methods, applications, integration with LLMs, and future challenges: ***Knowledge Graphs for AI-Driven Scientific Discovery: Construction, Applications, and Challenges***
 
-> If you notice any mistakes or have suggestions, please feel free to contact us at: Zhihui.Zhu01@outlook.com
+> If you notice any mistakes or have suggestions, please feel free to contact us: Zhihui.Zhu01@outlook.com
 
 ## 📑 Table of Contents
 - [Awesome-Scientific-Knowledge-Graph](#awesome-scientific-knowledge-graph)
