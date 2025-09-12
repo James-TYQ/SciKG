@@ -8,8 +8,8 @@ A comprehensive overview of Scientific Knowledge Graphs (SciKGs), organized in r
 - [Awesome-Scientific-Knowledge-Graph](#awesome-scientific-knowledge-graph)
   - [🧬 Research Scope Across Scientific Domains](#research-scope-across-scientific-domains-to-top)
   - [🔗 Evolution of KGs and SciKG Applications](#evolution-of-kgs-and-scikg-applications-to-top)
-  - [🤝 SciKG–LLM Integration for Scientific Discovery](#scikg-llm-integration-for-scientific-discovery-to-top)
   - [🏗️ Construction and Maintenance of SciKGs](#construction-and-maintenance-of-scikgs-to-top)
+  - [🤝 SciKG–LLM Integration for Scientific Discovery](#scikg-llm-integration-for-scientific-discovery-to-top)
   - [⚖️ Challenges and Opportunities in SciKGs](#challenges-and-opportunities-in-scikgs-to-top)
   - [🤖 SciKG-LLM Integration](#scikg-llm-integration-to-top)
   - [🗄️ Databases for Constructing Scientific KG](#databases-for-constructing-scientific-kg-to-top)
@@ -29,13 +29,13 @@ An overview of the scope in this survey, covering four fundamental scientific ta
 ![evolution](fig/evolution.png)
 The co-evolution of knowledge graph technologies and their scientific practices. The technological evolution of KGs (top) has continually enabled new paradigms in SciKG applications (bottom). This progression has moved from static cataloguing and manual integration to machine learning-driven inference, culminating in the current era of bidirectional synergy between LLMs and KGs. This synergy, leveraging tools such as RAG and AI agents, transforms SciKGs from static repositories into dynamic engines for generative scientific discovery. Abbr., SQL: Structured Query Language; RDF: Resource Description Framework; OWL: Web Ontology Language; SPARQL: SPARQL Protocol and RDF Query Language; GNN: graph neural network; KGE: knowledge graph embedding; RAG: retrieval-augmented generation.
 
-## 🤝 SciKG–LLM Integration for Scientific Discovery ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
-![kg_llm](fig/kg_llm.png)
-Synergistic integration of SciKGs and LLMs for knowledge-driven scientific discovery. (a) SciKGs serve as the foundational knowledge infrastructure by ensuring factual grounding and verification, defining reasonable scientific boundaries, and enabling unified representation of heterogeneous data. (b) LLMs act as dynamic semantic engines through five core functions: semantic interface for knowledge access, analytical reasoner for inference, generative engine for hypothesis design, constructor for knowledge curation, and orchestrator for workflow automation. (c) The SciKG-LLM integration empowers four key scientific discovery tasks: multi-source data interpretation, complex system mechanism analysis, system performance optimization, and innovative solution design.
-
 ## 🏗️ Construction and Maintenance of SciKGs ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 ![construct](fig/construct.png)
 Construction and maintenance of SciKGs. (a) The foundation of SciKG construction involves integrating diverse data sources, including structured databases, unstructured text, and multimodal data. (b) Two main approaches for extracting entities and relations from the acquired data are illustrated: rule/dictionary-based extraction, which relies on predefined lexicons and rules, and LLM-based extraction, involving fine-tuning on scientific datasets and prompt engineering. (c) Ontology alignment integrates diverse representations of the same entity (e.g., aspirin), followed by graph embedding into a continuous vector space. (d) Dynamic updating through incremental learning and LLM-driven error correction ensures SciKGs remain accurate and up to date. (e-h) Sub-figures illustrate representative examples of specialized knowledge graphs for drugs, omics, chemicals, and materials, respectively.
+
+## 🤝 SciKG–LLM Integration for Scientific Discovery ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
+![kg_llm](fig/kg_llm.png)
+Synergistic integration of SciKGs and LLMs for knowledge-driven scientific discovery. (a) SciKGs serve as the foundational knowledge infrastructure by ensuring factual grounding and verification, defining reasonable scientific boundaries, and enabling unified representation of heterogeneous data. (b) LLMs act as dynamic semantic engines through five core functions: semantic interface for knowledge access, analytical reasoner for inference, generative engine for hypothesis design, constructor for knowledge curation, and orchestrator for workflow automation. (c) The SciKG-LLM integration empowers four key scientific discovery tasks: multi-source data interpretation, complex system mechanism analysis, system performance optimization, and innovative solution design.
 
 ## ⚖️ Challenges and Opportunities in SciKGs ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 ![chall_oppor](fig/chall_oppor.png)
