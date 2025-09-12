@@ -11,14 +11,14 @@ A comprehensive overview of Scientific Knowledge Graphs (SciKGs), organized in r
   - [🤝 SciKG–LLM Integration for Scientific Discovery](#scikg-llm-integration-for-scientific-discovery-to-top)
   - [🏗️ Construction and Maintenance of SciKGs](#construction-and-maintenance-of-scikgs-to-top)
   - [⚖️ Challenges and Opportunities in SciKGs](#challenges-and-opportunities-in-scikgs-to-top)
+  - [🤖 SciKG-LLM Integration](#scikg-llm-integration-to-top)
   - [🗄️ Databases for Constructing Scientific KG](#databases-for-constructing-scientific-kg-to-top)
+  - [🛠️ Software Tools for Knowledge Graph](#software-tools-for-knowledge-graph-to-top)
   - [🔬 Application of SciKGs](#application-of-scikgs)
     - [💊 Drug Development and Optimization](#drug-development-and-optimization-to-top)
     - [🧬 Omics Profiling and Analysis](#omics-profiling-and-analysis-to-top)
     - [⚗️ Chemical Reaction and Synthesis](#chemical-reaction-and-synthesis-to-top)
     - [🔬 Materials Design and Discovery](#materials-design-and-discovery-to-top)
-  - [🤖 SciKG-LLM Integration](#scikg-llm-integration-to-top)
-  - [🛠️ Software Tools for Knowledge Graph](#software-tools-for-knowledge-graph-to-top)
   - [⭐ Star History](#-star-history)
 
 ## 🧬 Research Scope Across Scientific Domains ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
@@ -27,11 +27,11 @@ An overview of the scope in this survey, covering four fundamental scientific ta
 
 ## 🔗 Evolution of KGs and SciKG Applications ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 ![evolution](fig/evolution.png)
-The co-evolution of knowledge graph technologies and their scientific practices. The technological evolution of KGs (top) has continually enabled new paradigms in SciKG applications (bottom). This progression has moved from static cataloguing and manual integration to machine learning-driven inference, culminating in the current era of bidirectional synergy between LLMs and KGs. This synergy, leveraging tools such as RAG and AI agents, transforms SciKGs from static repositories into dynamic engines for generative scientific discovery. \textit{Abbr.}, SQL: Structured Query Language; RDF: Resource Description Framework; OWL: Web Ontology Language; SPARQL: SPARQL Protocol and RDF Query Language; GNN: graph neural network; KGE: knowledge graph embedding; RAG: retrieval-augmented generation.
+The co-evolution of knowledge graph technologies and their scientific practices. The technological evolution of KGs (top) has continually enabled new paradigms in SciKG applications (bottom). This progression has moved from static cataloguing and manual integration to machine learning-driven inference, culminating in the current era of bidirectional synergy between LLMs and KGs. This synergy, leveraging tools such as RAG and AI agents, transforms SciKGs from static repositories into dynamic engines for generative scientific discovery. Abbr., SQL: Structured Query Language; RDF: Resource Description Framework; OWL: Web Ontology Language; SPARQL: SPARQL Protocol and RDF Query Language; GNN: graph neural network; KGE: knowledge graph embedding; RAG: retrieval-augmented generation.
 
 ## 🤝 SciKG–LLM Integration for Scientific Discovery ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 ![kg_llm](fig/kg_llm.png)
-Synergistic integration of SciKGs and LLMs for knowledge-driven scientific discovery. (a) SciKGs serve as the foundational knowledge infrastructure by ensuring factual grounding and verification, defining reasonable scientific boundaries, and enabling unified representation of heterogeneous data. (b) LLMs act as dynamic semantic engines through five core functions: semantic interface for knowledge access, analytical reasoner for inference, generative engine for hypothesis design, constructor for knowledge curation, and orchestrator for workflow automation. (c) The SciKG--LLM integration empowers four key scientific discovery tasks: multi-source data interpretation, complex system mechanism analysis, system performance optimization, and innovative solution design.
+Synergistic integration of SciKGs and LLMs for knowledge-driven scientific discovery. (a) SciKGs serve as the foundational knowledge infrastructure by ensuring factual grounding and verification, defining reasonable scientific boundaries, and enabling unified representation of heterogeneous data. (b) LLMs act as dynamic semantic engines through five core functions: semantic interface for knowledge access, analytical reasoner for inference, generative engine for hypothesis design, constructor for knowledge curation, and orchestrator for workflow automation. (c) The SciKG-LLM integration empowers four key scientific discovery tasks: multi-source data interpretation, complex system mechanism analysis, system performance optimization, and innovative solution design.
 
 ## 🏗️ Construction and Maintenance of SciKGs ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 ![construct](fig/construct.png)
@@ -40,6 +40,31 @@ Construction and maintenance of SciKGs. (a) The foundation of SciKG construction
 ## ⚖️ Challenges and Opportunities in SciKGs ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 ![chall_oppor](fig/chall_oppor.png)
 Challenges and Opportunities in SciKGs. This figure illustrates the major challenges (C1-C4) facing SciKGs, including data quality and completeness, interoperability and integration, dynamic and temporal knowledge, and trustworthy and explainable reasoning. Each challenge is paired with corresponding opportunities (O1-O4) for advancement, such as building standards and benchmarks, integrating multimodal foundation models, autonomous updating via agents, and developing community-driven platforms. The green sections depict workflows (W1-W4) that enable these opportunities, highlighting a path towards more auditable, unified, dynamic, and community-governed SciKGs. 
+
+## SciKG-LLM Integration ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
+
+| Name | Year | Domains | Roles of LLMs | Roles of SciKG | Tasks | Application |
+| ---- | ---- | ------- | ------------- | -------------- | ----- | ----------- |
+| KnowNET | 2024 | Drug | Semantic Interface (Query Generation) | Grounding (Factual Verification) | M | Guide health information seeking |
+| FactFinder | 2024 | Drug | Semantic Interface (Query Generation) | Grounding (Factual Retrieval) | M | Life-science question answering |
+| DDI-GPT | 2024 | Drug | Reasoner (Prediction & Explanation) | Representation (Semantic Enhancement) | C | Explainable prediction of drug-drug interactions |
+| Soman et al. | 2024 | Drug, Omics | Constructor, Interface (KG Construction, Text Generation) | Grounding (Knowledge Base & Traceability) | M, C | Drug repurposing and medical QA |
+| BioLORD | 2024 | Drug, Omics | Reasoner (Semantic Representation Optimization) | Grounding (Knowledge Base & Semantic Support) | M | Enhance biomedical semantic similarity |
+| HeCiX | 2024 | Drug, Omics | Semantic Interface (Format Conversion) | Grounding (Knowledge Base) | M | Enhance clinical trial research |
+| KRAGEN | 2024 | Drug, Omics | Orchestrator (Plan Generation & Execution) | Grounding (Knowledge Base & Visualization) | M | Visualized biomedical QA system |
+| MechGPT | 2024 | Material | Constructor, Reasoner, Orchestrator (KG Construction, Explanation, Multi-agent) | Grounding, Reasoning Constraints (Knowledge & Explainability) | C, S, I | Materials analysis and design |
+| SciAgents | 2024 | Material | Constructor, Reasoner, Generator (KG Construction, Analytical Reasoning, Hypothesis Generation) | Grounding (Knowledge Base) | M, I | Automated discovery in biomaterials science |
+| MKG | 2024 | Material | Constructor (KG Construction & Maintenance) | Grounding (Knowledge Base) | I | Multidisciplinary materials science discovery |
+| OpenTCM | 2025 | Drug | Interface, Reasoner, Constructor (Retrieval, Diagnosis, KG Construction) | Reasoning Constraints (Knowledge Retrieval Enhancement) | M | Traditional Chinese Medicine diagnosis |
+| iKraph | 2025 | Drug | Constructor (KG Construction) | Grounding (Knowledge Base) | S | Biomedical Research |
+| KGT | 2025 | Drug, Omics | Interface, Reasoner (Query Generation & Reasoning Output) | Grounding, Reasoning Constraints (Fact Checking & Path Constraint) | S, M | Drug repositioning, Framework for pan-cancer QA |
+| ESCARGOT | 2025 | Drug, Omics | Generator, Orchestrator (Strategy & Code Generation) | Grounding (Knowledge Base) | S, I | Biomedical AI agent |
+| Cat-KG | 2025 | Chemistry | Constructor, Reasoning, Interface (KG Construction, Path Reasoning & Explanation) | Grounding, Reasoning Constraints (Explainability & Path Constraint) | C, M | Relay catalysis pathway recommendation |
+| Ma et al. | 2025 | Chemistry | Constructor, Generator (KG Construction & Path Recommendation) | Grounding (Structured Knowledge Management) | S | Automated Retrosynthesis Planning of Macromolecules |
+| KG-FM | 2025 | Material | Constructor, Reasoner (Multi-modal Extraction, QA & Reasoning) | Grounding (Knowledge Base & Visualization) | M | Improve LLM QA in framework materials |
+| SciToolAgent | 2025 | Comprehensive | Orchestrator (Multi-agent Collaboration) | Grounding (Tool Knowledge Base) | S, M, I | Scientific agent for multi-tool integration |
+
+**Tasks Abbreviations:** **M**: Multi-source Data Interpretation; **C**: Complex System Mechanism Analysis; **S**: System Performance Optimization; **I**: Innovative Solution Design
 
 ## Databases for Constructing Scientific KG ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 
@@ -60,7 +85,7 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 | | RNAcentral | Comprehensive ncRNA sequence collection representing all ncRNA types across diverse organisms | 44.5M non-coding RNA sequences, covering 1.1K species from 54 databases | Twice a year |
 | | STRING | Database of known and predicted protein–protein interactions across multiple organisms | 59.3M proteins, 20B PPIs, 12.5K organisms | -- |
 | | MONDO† | Ontology harmonizing disease concepts with standardized identifiers, mappings, and classifications for clinical use | 17 disease resources integrated into 22K unified disease concepts | Monthly |
-| | UMLS† | Comprehensive biomedical ontology integrating multiple vocabularies to unify concepts, names, and relationships | 17M names, 3.4M concepts, 8.7M codes, 190 vocabularies, 29 languages | Twice a year |
+| | UMLS | Comprehensive biomedical ontology integrating multiple vocabularies to unify concepts, names, and relationships | 17M names, 3.4M concepts, 8.7M codes, 190 vocabularies, 29 languages | Twice a year |
 | **Chemical Database** | ChEBI† | Chemical entities of biological interest, a dictionary and ontology of small molecular entities | 62K compounds | Monthly |
 | | ChEMBL | A curated database of drug-like bioactive molecules that integrates chemical, bioactivity and genomic data to support drug discovery | 2.5M compounds, 1.7M assays, 15.5K drugs, 48.8K drug indications | -- |
 | | Reaxys | Elsevier-curated chemical reactions, substances, properties & literature | 283M chemical substances, 73M reactions, 500M physicochemical data points | -- |
@@ -69,9 +94,30 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 | **Materials Databases** | OQMD | Open-access database of DFT-calculated properties for inorganic and hybrid materials | 1.2M materials | -- |
 | | Materials Project | High-throughput DFT database of materials properties & crystal structures | 144K inorganic compounds, 76K bandstructures, 64K molecules, 530K nanoporous materials, and diverse tensors and electrodes | -- |
 
-**Note:** †indicates an ontology. 
+## Software Tools for Knowledge Graph ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 
-**Column key:** Domain: Scientific domain; Database: Resource name; Short description: Primary function and content; Statistics: Data volume metrics; Update Frequency: Update cadence (--: Update frequency is irregular or not explicitly stated).
+| Category | Software Name | URL | Description | Supported Tasks | License |
+| -------- | ------------- | --- | ----------- | --------------- | ------- |
+| **Automated KG Construction** | DeepKE | [Link](https://github.com/zjunlp/DeepKE) | A knowledge extraction toolkit for knowledge graph construction supporting cnSchema, low-resource, document-level and multimodal scenarios for entity, relation and attribute extraction | Named Entity Recognition, Relation Extraction, Attribute Extraction | MIT License |
+| | OneKE | [Link](https://github.com/OpenSPG/OneKE) | A flexible dockerized system for schema-guided knowledge extraction, capable of extracting information from the web and raw PDF books across multiple domains like science and news | Named Entity Recognition, Web News Extraction, Book Knowledge Extraction | MIT License |
+| | AutoKG | [Link](https://github.com/zjunlp/AutoKG) | An LLM-powered multi-agent framework for automated KG construction and reasoning, integrating external knowledge sources for large-scale extraction | Entity/Relation Extraction, KG Construction, KG Reasoning | MIT License |
+| **Graph Databases and Storage** | Neo4j | [Link](https://github.com/neo4j/neo4j) | A widely used native graph database with ACID transactions and Cypher query language, suitable for highly connected data analysis | Graph Storage, Graph Querying, Graph Algorithms | GPLv3 |
+| | JanusGraph | [Link](https://github.com/JanusGraph/janusgraph) | A highly scalable graph database optimized for storing and querying large graphs with billions of vertices and edges distributed across a multi-machine cluster | Graph Storage, Gremlin Query | CC-BY-4.0 |
+| | ArangoDB | [Link](https://github.com/arangodb/arangodb) | A scalable graph database system to drive value from connected data, faster. Native graphs, an integrated search engine, and JSON support, via a single query language | Multi-Model Storage, Graph Traversal, Path Querying | BSL 1.1 |
+| | Virtuoso | [Link](https://github.com/openlink/virtuoso-opensource) | A hybrid relational-RDF database supporting both SPARQL and SQL, widely used for Linked Data publishing | RDF Storage, SPARQL Query, Ontology Reasoning | GPL v2 |
+| | TigerGraph | [Link](https://www.tigergraph.com) | A commercial distributed parallel graph database optimized for real-time graph analytics, offering GSQL for querying at trillion-edge scale | Graph Storage, Parallel Graph Computation, Real-time Querying | Proprietary |
+| **Representation Learning & Reasoning** | OpenKE | [Link](https://github.com/thunlp/OpenKE) | A sub-project of OpenSKL, providing an Open-source Knowledge Embedding toolkit for knowledge representation learning (KRL) | KG Embedding, Link Prediction, Triple Classification | MIT License |
+| | DGL-KE | [Link](https://github.com/awslabs/dgl-ke) | A high performance, easy-to-use, and scalable package for learning large-scale knowledge graph embeddings | KG Embedding, Large-scale Link Prediction | Apache 2.0 |
+| | PyKEEN | [Link](https://github.com/pykeen/pykeen) | A Python library for KG embeddings with modular design, automated hyperparameter tuning, and reproducibility guarantees | KG Embedding, Model Training and Evaluation, Hyperparameter Optimization | MIT License |
+| | AmpliGraph | [Link](https://github.com/Accenture/AmpliGraph) | A suite of neural machine learning models for relational Learning, a branch of machine learning that deals with supervised learning on knowledge graphs | Generate KG embeddings, Link Prediction, Anomaly Detection | Apache 2.0 |
+| | LibKGE | [Link](https://github.com/uma-pi1/kge) | A PyTorch-based library for efficient training, evaluation, and hyperparameter optimization of knowledge graph embeddings (KGE) | Link Prediction, Training, Evaluation of KGE Models | MIT License |
+| | Pykg2vec | [Link](https://github.com/Sujit-O/pykg2vec) | A library for learning the representation of entities and relations in Knowledge Graph | KGE Model Implementations, Hyperparameters Discovery, Learned Embedding Inspecting | MIT License |
+| **Auxiliary Tools** | Doccano | [Link](https://github.com/doccano/doccano) | An open-source text annotation tool with a web interface for humans | Annotation for Text Classification, Sequence Labeling, Sequence to Sequence tasks | MIT License |
+| | Label Studio | [Link](https://github.com/HumanSignal/label-studio) | An open source data labeling tool supporting multimodal data, such as text, images, audio, video, time series | Multi-modal Data Annotation, Quality Assurance | Apache 2.0 |
+| | Gephi | [Link](https://github.com/gephi/gephi) | An award-winning open-source platform for visualizing and manipulating large graphs | Graph Visualization, Network Analysis, Community Detection | CDDL 1.0 |
+| | Cytoscape | [Link](https://github.com/cytoscape/cytoscape) | A network visualization platform originally designed for bioinformatics, now supporting general-purpose network analysis with rich plugins | Graph Visualization, Attribute Integration, Topology Analysis | LGPL |
+| | GraphGPT | [Link](https://github.com/varunshenoy/GraphGPT) | An experimental tool using GPT models to extract entities and relations from text and generate interactive KG visualizations | Triple Extraction, KG Construction, Visualization | MIT License |
+| | LlamaIndex | [Link](https://github.com/run-llama/llama_index) | A component for building KG indices from unstructured text, integrating subject–predicate–object triples into LLM-based retrieval pipelines | Triple Extraction, KG Indexing, KG-based QA | MIT License |
 
 ## Application of SciKGs
 
@@ -216,60 +262,6 @@ Challenges and Opportunities in SciKGs. This figure illustrates the major challe
 | 2020 | propnet: A Knowledge Graph for Materials Science | propnet KG | domain-specific KG | Material performance prediction | Semi-automated | Matter | [Link](https://www.sciencedirect.com/science/article/pii/S2590238519303881) | [Link](https://github.com/materialsintelligence/propnet) ![](https://img.shields.io/github/stars/materialsintelligence/propnet.svg?style=social) |
 | 2020 | NanoMine: A Knowledge Graph for Nanocomposite Materials Science | NanoMine KG | domain-specific KG | New material design | Semi-automated | ISWC | [Link](https://link.springer.com/chapter/10.1007/978-3-030-62466-8_10) | |
 | 2018 | Relation extraction with weakly supervised learning based on process-structure-property-performance reciprocity | PSPP KG (Process-Structure-Property-Performance) | literature-based KG | New material design | Semi-automated | Science and Technology of Advanced Materials | [Link](https://www.tandfonline.com/doi/full/10.1080/14686996.2018.1500852#d1e373) | [Link](https://bitbucket.org/0024takeshi/pspp_relation) |
-
-## SciKG-LLM Integration ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
-
-| Name | Year | Domains | Roles of LLMs | Roles of SciKG | Tasks and Goals |
-| ---- | ---- | ------- | ------------- | -------------- | --------------- |
-| BioLORD | 2024 | Biomedicine | Knowledge completion | Concept-aligned distillation | Enhance biomedical semantic similarity |
-| MedSyn | 2024 | Biomedicine | Information extraction | Multi-hop reasoning & Structured summarization | Generate synthetic clinical notes in Russian |
-| HeCiX-KG | 2024 | Biomedicine | Knowledge completion | Context-enhanced QA | Enhance clinical trial research |
-| KnowNET | 2024 | Biomedicine | Information extraction & Knowledge reasoning | Knowledge grounding & Evidence-based reasoning | Guide health information seeking |
-| DALK | 2024 | Biomedicine | Information extraction | Knowledge retrieval & Context-enhanced QA | Enhancing the diagnosis of Alzheimer's Disease |
-| CancerKG.ORG | 2024 | Biomedicine | End-to-end KG construction & Auto-maintenance | Fact verification | Optimal cancer treatment and care |
-| FactFinder | 2024 | Biomedicine | Knowledge reasoning | Fact verification & Context-enhanced QA | Life-science question answering |
-| Soman et al. | 2024 | Biomedicine | Knowledge completion | Context-enhanced QA | Medical QA and drug repurposing |
-| Cat-KG | 2025 | Chemistry | Information extraction & Auto-maintenance | Evidence-based reasoning & Multi-Hop reasoning | Relay catalysis pathway recommendation |
-| Ma et al. | 2025 | Chemistry | Information extraction | Context-enhanced QA | Automated Retrosynthesis Planning of Macromolecules |
-| KG-FM | 2025 | Material Science | End-to-end KG construction | Context-enhanced QA | Enhance QA systems development |
-| Yang et al. | 2025 | Biomedicine | Information extraction & Knowledge reasoning | Knowledge grounding | Improve sepsis understanding |
-| TCM-KLLaMA | 2025 | Biomedicine | Information extraction | Knowledge grounding | Safe TCM prescription generation |
-| OpenTCM | 2025 | Biomedicine | Information extraction | GraphRAG | Traditional Chinese Medicine diagnosis |
-| GRABLI | 2025 | Biomedicine | Knowledge completion | Multimodal Knowledge alignment | Improve biomedical language understanding |
-| KG4Diagnosis | 2025 | Biomedicine | End-to-end KG construction | Context-enhanced QA | Medical diagnosis |
-| KGT | 2025 | Biomedicine | Knowledge reasoning & Knowledge refinement | Fact verification & Evidence-based reasoning & Multi-hop reasoning | Framework for pan-cancer question answering |
-| Shi et al. | 2025 | Biomedicine | Knowledge completion | Knowledge grounding | Enhance cognitive capabilities in medical device design |
-| AMG-RAG | 2025 | Biomedicine | Information extraction & Knowledge reasoning | Knowledge grounding & Evidence-based reasoning | Enhance medical question answering |
-| HealthGenie | 2025 | Biomedicine | Information extraction & Knowledge reasoning | Knowledge grounding & Evidence-based reasoning | Empower users with healthy dietary guidance |
-| SciToolAgent | 2025 | Comprehensive Science | Information extraction | Knowledge grounding | Scientific agent for multi-tool integration |
-| SciCUEval | 2025 | Comprehensive Science | Information extraction & Knowledge reasoning | Knowledge grounding & Evidence-based reasoning & Context-enhanced QA | Benchmarking LLMs for scientific context in KG |
-
-**Note:** *Abbr.* IE: information extraction, including named entity recognition, relation extraction, and attribute extraction.
-
-## Software Tools for Knowledge Graph ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
-
-| Category | Software Name | URL | Description | Supported Tasks | License |
-| -------- | ------------- | --- | ----------- | --------------- | ------- |
-| **Automated KG Construction** | DeepKE | [Link](https://github.com/zjunlp/DeepKE) | A knowledge extraction toolkit for knowledge graph construction supporting cnSchema, low-resource, document-level and multimodal scenarios for entity, relation and attribute extraction | Named Entity Recognition, Relation Extraction, Attribute Extraction | MIT License |
-| | OneKE | [Link](https://github.com/OpenSPG/OneKE) | A flexible dockerized system for schema-guided knowledge extraction, capable of extracting information from the web and raw PDF books across multiple domains like science and news | Named Entity Recognition, Web News Extraction, Book Knowledge Extraction | MIT License |
-| | AutoKG | [Link](https://github.com/zjunlp/AutoKG) | An LLM-powered multi-agent framework for automated KG construction and reasoning, integrating external knowledge sources for large-scale extraction | Entity/Relation Extraction, KG Construction, KG Reasoning | MIT License |
-| **Graph Databases and Storage** | Neo4j | [Link](https://github.com/neo4j/neo4j) | A widely used native graph database with ACID transactions and Cypher query language, suitable for highly connected data analysis | Graph Storage, Graph Querying, Graph Algorithms | GPLv3 |
-| | JanusGraph | [Link](https://github.com/JanusGraph/janusgraph) | A highly scalable graph database optimized for storing and querying large graphs with billions of vertices and edges distributed across a multi-machine cluster | Graph Storage, Gremlin Query | CC-BY-4.0 |
-| | ArangoDB | [Link](https://github.com/arangodb/arangodb) | A scalable graph database system to drive value from connected data, faster. Native graphs, an integrated search engine, and JSON support, via a single query language | Multi-Model Storage, Graph Traversal, Path Querying | BSL 1.1 |
-| | Virtuoso | [Link](https://github.com/openlink/virtuoso-opensource) | A hybrid relational-RDF database supporting both SPARQL and SQL, widely used for Linked Data publishing | RDF Storage, SPARQL Query, Ontology Reasoning | GPL v2 |
-| | TigerGraph | [Link](https://www.tigergraph.com) | A commercial distributed parallel graph database optimized for real-time graph analytics, offering GSQL for querying at trillion-edge scale | Graph Storage, Parallel Graph Computation, Real-time Querying | Proprietary |
-| **Representation Learning & Reasoning** | OpenKE | [Link](https://github.com/thunlp/OpenKE) | A sub-project of OpenSKL, providing an Open-source Knowledge Embedding toolkit for knowledge representation learning (KRL) | KG Embedding, Link Prediction, Triple Classification | MIT License |
-| | DGL-KE | [Link](https://github.com/awslabs/dgl-ke) | A high performance, easy-to-use, and scalable package for learning large-scale knowledge graph embeddings | KG Embedding, Large-scale Link Prediction | Apache 2.0 |
-| | PyKEEN | [Link](https://github.com/pykeen/pykeen) | A Python library for KG embeddings with modular design, automated hyperparameter tuning, and reproducibility guarantees | KG Embedding, Model Training and Evaluation, Hyperparameter Optimization | MIT License |
-| | AmpliGraph | [Link](https://github.com/Accenture/AmpliGraph) | A suite of neural machine learning models for relational Learning, a branch of machine learning that deals with supervised learning on knowledge graphs | Generate KG embeddings, Link Prediction, Anomaly Detection | Apache 2.0 |
-| | LibKGE | [Link](https://github.com/uma-pi1/kge) | A PyTorch-based library for efficient training, evaluation, and hyperparameter optimization of knowledge graph embeddings (KGE) | Link Prediction, Training, Evaluation of KGE Models | MIT License |
-| | Pykg2vec | [Link](https://github.com/Sujit-O/pykg2vec) | A library for learning the representation of entities and relations in Knowledge Graph | KGE Model Implementations, Hyperparameters Discovery, Learned Embedding Inspecting | MIT License |
-| **Auxiliary Tools** | Doccano | [Link](https://github.com/doccano/doccano) | An open-source text annotation tool with a web interface for humans | Annotation for Text Classification, Sequence Labeling, Sequence to Sequence tasks | MIT License |
-| | Label Studio | [Link](https://github.com/HumanSignal/label-studio) | An open source data labeling tool supporting multimodal data, such as text, images, audio, video, time series | Multi-modal Data Annotation, Quality Assurance | Apache 2.0 |
-| | Gephi | [Link](https://github.com/gephi/gephi) | An award-winning open-source platform for visualizing and manipulating large graphs | Graph Visualization, Network Analysis, Community Detection | CDDL 1.0 |
-| | Cytoscape | [Link](https://github.com/cytoscape/cytoscape) | A network visualization platform originally designed for bioinformatics, now supporting general-purpose network analysis with rich plugins | Graph Visualization, Attribute Integration, Topology Analysis | LGPL |
-| | GraphGPT | [Link](https://github.com/varunshenoy/GraphGPT) | An experimental tool using GPT models to extract entities and relations from text and generate interactive KG visualizations | Triple Extraction, KG Construction, Visualization | MIT License |
-| | LlamaIndex | [Link](https://github.com/run-llama/llama_index) | A component for building KG indices from unstructured text, integrating subject–predicate–object triples into LLM-based retrieval pipelines | Triple Extraction, KG Indexing, KG-based QA | MIT License |
 
 ## 📅 Star History  
  <a href="#-table-of-contents" style="float:right;">⬆ Back to Top</a>
