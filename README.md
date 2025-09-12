@@ -2,16 +2,15 @@
 
 A comprehensive overview of Scientific Knowledge Graphs (SciKGs), organized in reference to our survey, covering construction methods, applications, integration with LLMs, and future challenges: ***Knowledge Graphs for AI-Driven Scientific Discovery: Construction, Applications, and Challenges***
 
-> If you notice any mistakes or have suggestions, please feel free to contact us at: dingkeyan@zju.edu.cn
->
-> For reliability, we recommend also CC’ing qiang.zhang.cs@zju.edu.cn and yuqi.22@intl.zju.edu.cn in case of potential delivery issues.
+> If you notice any mistakes or have suggestions, please feel free to contact us at: Zhihui.Zhu01@outlook.com
 
 ## 📑 Table of Contents
 - [Awesome-Scientific-Knowledge-Graph](#awesome-scientific-knowledge-graph)
-  - [🔗 Evolution of KGs and SciKG Applications](#evolution-of-kgs-and-scikg-applications-to-top)
   - [🧬 Research Scope Across Scientific Domains](#research-scope-across-scientific-domains-to-top)
-  - [🏗️ Construction and Maintenance of SciKGs](#️-construction-and-maintenance-of-scikgs-to-top)
-  - [⚖️ Challenges and Opportunities in SciKGs](#️-challenges-and-opportunities-in-scikgs-to-top)
+  - [🔗 Evolution of KGs and SciKG Applications](#evolution-of-kgs-and-scikg-applications-to-top)
+  - [🤝 SciKG–LLM Integration for Scientific Discovery](#scikg-llm-integration-for-scientific-discovery-to-top)
+  - [🏗️ Construction and Maintenance of SciKGs](#construction-and-maintenance-of-scikgs-to-top)
+  - [⚖️ Challenges and Opportunities in SciKGs](#challenges-and-opportunities-in-scikgs-to-top)
   - [🗄️ Databases for Constructing Scientific KG](#databases-for-constructing-scientific-kg-to-top)
   - [🔬 Application of SciKGs](#application-of-scikgs)
     - [💊 Drug Development and Optimization](#drug-development-and-optimization-to-top)
@@ -22,21 +21,25 @@ A comprehensive overview of Scientific Knowledge Graphs (SciKGs), organized in r
   - [🛠️ Software Tools for Knowledge Graph](#software-tools-for-knowledge-graph-to-top)
   - [⭐ Star History](#-star-history)
 
-## 🔗 Evolution of KGs and SciKG Applications ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
-![evolution](fig/evolution.png)
-The co-evolution of knowledge graph technologies and their scientific applications. The technological evolution of KGs (top) has continually enabled new paradigms in SciKG applications (bottom). This progression has moved from static cataloguing and manual integration to machine learning-driven inference, culminating in the current era of bidirectional synergy between LLMs and KGs. This synergy, leveraging tools such as RAG and AI agents, transforms SciKGs from static repositories into dynamic engines for generative scientific discovery. Abbr., SQL: Structured Query Language; RDF: Resource Description Framework; OWL: Web Ontology Language; SPARQL: SPARQL Protocol and RDF Query Language; GNN: graph neural network; KGE: knowledge graph embedding; RAG: retrieval-augmented generation.
-
 ## 🧬 Research Scope Across Scientific Domains ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 ![overview](fig/overview.png)
-An overview of the research scope in our survey, focusing on four fundamental scientific domains: (a) drug development and optimization, (b) omics profiling and analysis, (c)chemical reaction and synthesis, and (d) materials design and discovery.
+An overview of the scope in this survey, covering four fundamental scientific tasks in biology, chemistry, and materials science: (a) drug development and optimization, (b) omics interpretation and analysis, (c) chemical reaction and synthesis, and (d) materials design and discovery.
+
+## 🔗 Evolution of KGs and SciKG Applications ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
+![evolution](fig/evolution.png)
+The co-evolution of knowledge graph technologies and their scientific practices. The technological evolution of KGs (top) has continually enabled new paradigms in SciKG applications (bottom). This progression has moved from static cataloguing and manual integration to machine learning-driven inference, culminating in the current era of bidirectional synergy between LLMs and KGs. This synergy, leveraging tools such as RAG and AI agents, transforms SciKGs from static repositories into dynamic engines for generative scientific discovery. \textit{Abbr.}, SQL: Structured Query Language; RDF: Resource Description Framework; OWL: Web Ontology Language; SPARQL: SPARQL Protocol and RDF Query Language; GNN: graph neural network; KGE: knowledge graph embedding; RAG: retrieval-augmented generation.
+
+## 🤝 SciKG–LLM Integration for Scientific Discovery ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
+![kg_llm](fig/kg_llm.png)
+Synergistic integration of SciKGs and LLMs for knowledge-driven scientific discovery. (a) SciKGs serve as the foundational knowledge infrastructure by ensuring factual grounding and verification, defining reasonable scientific boundaries, and enabling unified representation of heterogeneous data. (b) LLMs act as dynamic semantic engines through five core functions: semantic interface for knowledge access, analytical reasoner for inference, generative engine for hypothesis design, constructor for knowledge curation, and orchestrator for workflow automation. (c) The SciKG--LLM integration empowers four key scientific discovery tasks: multi-source data interpretation, complex system mechanism analysis, system performance optimization, and innovative solution design.
 
 ## 🏗️ Construction and Maintenance of SciKGs ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 ![construct](fig/construct.png)
-Construction and maintenance of SciKGs. (a) The foundation of SciKG construction involves integrating diverse data sources, including structured databases, unstructured text, and multimodal data. (b) Two main approaches for extracting entities and relations from the acquired data are illustrated: rule/dictionary-based extraction, which relies on predefined lexicons and rules, and LLM-based extraction, involving fine-tuning on scientific datasets and prompt engineering. (c) Ontology alignment integrates diverse representations of the same entity (e.g., aspirin), followed by graph embedding into a continuous vector space. (d) Dynamic updating through incremental learning and LLM-driven error correction ensures SciKGs remain accurate and up to date. (e-h) Sub-figures showing specialized knowledge graphs for drugs, omics, chemicals, and materials respectively.
+Construction and maintenance of SciKGs. (a) The foundation of SciKG construction involves integrating diverse data sources, including structured databases, unstructured text, and multimodal data. (b) Two main approaches for extracting entities and relations from the acquired data are illustrated: rule/dictionary-based extraction, which relies on predefined lexicons and rules, and LLM-based extraction, involving fine-tuning on scientific datasets and prompt engineering. (c) Ontology alignment integrates diverse representations of the same entity (e.g., aspirin), followed by graph embedding into a continuous vector space. (d) Dynamic updating through incremental learning and LLM-driven error correction ensures SciKGs remain accurate and up to date. (e-h) Sub-figures illustrate representative examples of specialized knowledge graphs for drugs, omics, chemicals, and materials, respectively.
 
 ## ⚖️ Challenges and Opportunities in SciKGs ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 ![chall_oppor](fig/chall_oppor.png)
-Challenges and Opportunities in SciKGs. This figure illustrates the major challenges (C1-C4) facing SciKGs, including data quality and completeness, interoperability and integration, dynamic and temporal knowledge, and trustworthy and explainable reasoning. Each challenge is paired with corresponding opportunities (O1-O4) for advancement, such as building standards and benchmarks, integrating multimodal foundation models, autonomous updating via agents, and developing community-driven platforms. The green sections depict workflows that enable these opportunities, highlighting a path towards more auditable, unified, dynamic, and community-governed SciKGs.
+Challenges and Opportunities in SciKGs. This figure illustrates the major challenges (C1-C4) facing SciKGs, including data quality and completeness, interoperability and integration, dynamic and temporal knowledge, and trustworthy and explainable reasoning. Each challenge is paired with corresponding opportunities (O1-O4) for advancement, such as building standards and benchmarks, integrating multimodal foundation models, autonomous updating via agents, and developing community-driven platforms. The green sections depict workflows (W1-W4) that enable these opportunities, highlighting a path towards more auditable, unified, dynamic, and community-governed SciKGs. 
 
 ## Databases for Constructing Scientific KG ([To Top👆🏻](#Awesome-Scientific-Knowledge-Graph))
 
