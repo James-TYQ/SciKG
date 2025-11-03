@@ -4,18 +4,16 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
 
 ## 📑 Table of Contents
 
-## 📑 Table of Contents
-
 - [Awesome Scientific Knowledge Graphs](#awesome-scientific-knowledge-graphs)
-  - [📑 Table of Contents](#table-of-contents)
-  - [🧬 Research Scopes](#research-scopes)
-  - [📚 Structure of Survey](#structure-of-survey)
-  - [🔗 Evolution of SciKGs](#evolution-of-scikgs)
-  - [🏗️ Construction and Maintenance of SciKGs](#construction-and-maintenance-of-scikgs)
-  - [🌐 Core Functions of SciKGs](#core-functions-of-scikgs)
-  - [🤝 SciKG–LLM Integration for Scientific Discovery](#scikgllm-integration-for-scientific-discovery)
-  - [🧠 Discovery Flywheel](#discovery-flywheel)
-  - [⚖️ Challenges and Opportunities in SciKGs](#challenges-and-opportunities-in-scikgs)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [🧬 Research Scopes](#-research-scopes)
+  - [📚 Structure of Survey](#-structure-of-survey)
+  - [🔗 Evolution of SciKGs](#-evolution-of-scikgs)
+  - [🏗️ Construction and Maintenance of SciKGs](#-construction-and-maintenance-of-scikgs)
+  - [🌐 Core Functions of SciKGs](#-core-functions-of-scikgs)
+  - [🤝 SciKG–LLM Integration for Scientific Discovery](#-scikgllm-integration-for-scientific-discovery)
+  - [🧠 Discovery Flywheel](#-discovery-flywheel)
+  - [⚖️ Challenges and Opportunities in SciKGs](#-challenges-and-opportunities-in-scikgs)
   - [Collection of SciKGs and its Applications](#collection-of-scikgs-and-its-applications)
     - [Drug Development and Optimization](#drug-development-and-optimization)
     - [Omics Interpretation and Analysis](#omics-interpretation-and-analysis)
@@ -25,6 +23,7 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
   - [Databases for Constructing Scientific Knowledge Graph](#databases-for-constructing-scientific-knowledge-graph)
   - [Software Tools for Knowledge Graph](#software-tools-for-knowledge-graph)
   - [Citation](#citation)
+
 
 ## 🧬 Research Scopes
 
@@ -48,7 +47,7 @@ A Survey of Knowledge Graphs for AI-Driven Scientific Discovery: Construction, A
 
 ## 🌐 Core Functions of SciKGs
 
-![functions](fig/app.png) 
+![app](fig/app.png) 
 **Summary of core functions of SciKGs in diverse scientific tasks.** SciKGs serve as a foundational infrastructure that: (1) organizes heterogeneous scientific data into structured knowledge; (2) enhances representation learning via graph embedding; (3) enables causal and relational inference for hypothesis generation; and (4) improves AI model interpretability by grounding predictions in traceable, evidence-based knowledge paths.
 
 ## 🤝 SciKG–LLM Integration for Scientific Discovery
